@@ -7,8 +7,6 @@ import java.io.IOException;
 public class Main {
     public static void main(String[] args) {
         // Check if the input file path is provided
-       
-
         try (BufferedReader reader = new BufferedReader(new FileReader("inputFile.txt"))) {
             String line;
             while ((line = reader.readLine()) != null) {
